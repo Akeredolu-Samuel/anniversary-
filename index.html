@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#180d22" />
+  <title>One Year of Us</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain"></div><div class="aurora a1"></div><div class="aurora a2"></div>
+  <main>
+    <section class="hero" id="top">
+      <p class="eyebrow">A small universe for us · 03 NOVEMBER</p>
+      <div class="orbit"><span>✦</span><span>✦</span><span>✦</span></div>
+      <h1>Do you remember<br><em>how we became us?</em></h1>
+      <p class="hero-copy">Not a grand plan. Not a movie scene. Just Freshers’ Day, a number I couldn’t stop thinking about, and one beautiful yes after another.</p>
+      <button class="open-story" id="openStory">Open our first chapter <b>↓</b></button>
+      <p class="scroll-note">made with a full heart</p>
+    </section>
+
+    <section class="chapter reveal" id="story">
+      <div class="chapter-num">01 / THE BEGINNING</div>
+      <div class="story-grid">
+        <div class="story-text"><p class="quote">“What if I just message these people?”</p><p>That small prompt became the best decision. I saw you with your friend on Freshers’ Day while I was with mine—and somehow the day kept leading back to you.</p></div>
+        <div class="polaroid rotate-left"><img src="assets/together-bus.jpg" alt="A sweet moment together" /><span>two strangers, one beginning</span></div>
+      </div>
+    </section>
+
+    <section class="chapter fellowship reveal">
+      <div class="chapter-num">02 / THE UMBRELLA MOMENT</div>
+      <div class="umbrella-scene">
+        <div class="umbrella-icon">☂</div>
+        <div><p class="quote">“An umbrella turned us into two loving birds.”</p><p>The rain left you stranded, so I came to meet you with an umbrella and brought you to fellowship. What could have been just a rainy day became one of our first little stories—and I still love that our story has an umbrella in it.</p></div>
+      </div>
+    </section>
+
+    <section class="chapter relationship reveal">
+      <div class="chapter-num">03 / THE DAY WE CHOSE US</div>
+      <div class="date-lockup"><span>03</span><div><b>NOV</b><small>the date everything turned lovey-dovey</small></div><span>♡</span></div>
+      <h2>One year ago, we made it <em>official.</em></h2>
+      <p class="center-copy">And since then, ordinary moments have learned how to glow.</p>
+    </section>
+
+    <section class="gallery reveal" aria-label="Our memories">
+      <div class="gallery-head"><div><p class="eyebrow">THE RECEIPTS</p><h2>A year in<br><em>little moments.</em></h2></div><p>Tap a memory. Stay as long as you want.</p></div>
+      <div class="masonry">
+        <button class="memory tall" data-caption="Matching white and unserious faces."><img src="assets/together-bus.jpg" alt="Together on a bus" /></button>
+        <button class="memory" data-caption="That colourful kind of joy."><img src="assets/together-color.jpg" alt="A colourful selfie together" /></button>
+        <button class="memory wide" data-caption="Two people, somehow exactly in the right place."><img src="assets/together-street.jpg" alt="Together on a street" /></button>
+        <button class="memory" data-caption="The kind of hand-holding that says everything."><img src="assets/hands.jpg" alt="Holding hands" /></button>
+        <button class="memory" data-caption="Sunlight, conversation, and us."><img src="assets/together-sun.jpg" alt="Together in sunlight" /></button>
+        <button class="memory tall" data-caption="A soft ordinary day that became a memory."><img src="assets/together-walk.jpg" alt="A walk together" /></button>
+      </div>
+    </section>
+
+    <section class="letter reveal">
+      <div class="letter-card">
+        <p class="eyebrow">TO MY FAVOURITE PERSON</p>
+        <h2>Happy one year,<br><em>my love.</em></h2>
+        <p>Thank you for being the person behind so many of my favourite moments. Thank you for every conversation, every laugh, every walk, every little thing that has quietly made this year feel like home.</p>
+        <p>I loved meeting you. I love knowing you. And I’m still excited about all the versions of us that are waiting ahead.</p>
+        <p class="signature">Always yours, <span>♡</span></p>
+      </div>
+      <img class="letter-photo" src="assets/together-night.jpg" alt="A close selfie together" />
+    </section>
+
+    <section class="final reveal">
+      <div class="heart" id="heart">♡</div>
+      <p class="eyebrow">ONE YEAR DOWN · FOREVER TO DISCOVER</p>
+      <h2>I’d choose that<br>message <em>again.</em></h2>
+      <button class="replay" id="replay">Replay our beginning ↑</button>
+    </section>
+  </main>
+  <div class="lightbox" id="lightbox" aria-hidden="true"><button aria-label="Close photo" id="close">×</button><img id="lightboxImg" src="" alt=""><p id="caption"></p></div>
+  <script src="script.js"></script>
+</body>
+</html>
